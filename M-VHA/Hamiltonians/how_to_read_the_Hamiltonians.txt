@@ -1,0 +1,2 @@
+file = open("<enter filename here>",'rb')
+mol_Ham = pickle.load(file) ## mol_Ham is the Hamiltonian for the molecule as a tequila QubitHamiltonian object ##
