@@ -1,0 +1,8 @@
+file = open("<enter filename here>",'rb')
+### circuits is a list of tequila QCircuit objects that correspond to the diagonalization circuits
+### groups is a list of list of tequila QubitHamiltonian object, where each term in a list commutes 
+  with every other term in the list
+### z_representation is a list of tuples where the first element is a tequila QubitHamiltonian object 
+  corresponding to the diagonal Hamiltonian and the second element is a tequila QCircuit object that 
+  correspond to the diagonalization circuit
+z_representation, groups, circuits = pickle.load(file)
