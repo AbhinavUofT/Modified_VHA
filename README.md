@@ -1,1 +1,1 @@
-This is a repository with an example and all the Hamiltonians and corresponding diagonalizing circuits and commuting groups used in the numerical simulations for the two papers - 2312.08502 (M-VHA) and 2312.xxxxx (H-HEA)
+This is a repository with an example demonstrating the method in the two papers 2312.08502 (M-VHA) and 2312.xxxxx (H-HEA). All the Hamiltonians and corresponding diagonalizing circuits and commuting groups used in the different numerical simulations for the two papers - 2312.08502 (M-VHA) and 2312.xxxxx (H-HEA) - are also included.
