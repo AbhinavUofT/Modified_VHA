@@ -1,0 +1,5 @@
+file = open("<enter filename here>",'rb')
+### circuits is a list of tequila QCircuit objects that correspond to the graph-based diagonalization circuits
+### groups is a list of list of tequila QubitHamiltonian object, where each term in a list commutes 
+  with every other term in the list
+groups, circuits = pickle.load(file)
